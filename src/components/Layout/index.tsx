@@ -1,3 +1,4 @@
+import { Outlet } from "react-router"
 import HomePage from "../../pages/HomePage"
 import './styles.scss'
 
@@ -15,7 +16,7 @@ const Layout = () => {
             </header>
 
             <div className="container-md">
-                <HomePage />
+                <Outlet />
             </div>
 
             <footer>
