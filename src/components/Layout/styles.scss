@@ -1,0 +1,22 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 15px;
+    background-color: var(--bs-gray-900);
+    color: var(--bs-gray-100);
+
+    span {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            color: var(--bs-gray-400);
+            text-decoration: none;
+        }
+    }
+}
