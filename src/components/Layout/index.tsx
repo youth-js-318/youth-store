@@ -14,7 +14,9 @@ const Layout = () => {
                 </nav>
             </header>
 
-            <HomePage />
+            <div className="container-md">
+                <HomePage />
+            </div>
 
             <footer>
                 <span>Youth Store</span>
