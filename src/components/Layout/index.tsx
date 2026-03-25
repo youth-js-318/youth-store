@@ -1,5 +1,4 @@
 import { Outlet } from "react-router"
-import HomePage from "../../pages/HomePage"
 import './styles.scss'
 
 const Layout = () => {
